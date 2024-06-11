@@ -295,9 +295,11 @@ let btn2 = document.querySelector(".sort-ascending");
 
 btn1.addEventListener("click", () => {
   handleSorting("desending");
+  // 降序
 });
 btn2.addEventListener("click", () => {
-  handleSorting("ascending"); //小>大
+  handleSorting("ascending");
+  // 升序
 });
 
 function handleSorting(direction) {
